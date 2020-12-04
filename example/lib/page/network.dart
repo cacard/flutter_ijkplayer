@@ -19,8 +19,11 @@ class _NetworkPageState extends State<NetworkPage> {
     editingController.text =
         "https://www.sample-videos.com/video123/mp4/720/big_buck_bunny_720p_30mb.mp4";
 
+    // editingController.text =
+    //     "http://img.ksbbs.com/asset/Mon_1703/05cacb4e02f9d9e.mp4";
+
     editingController.text =
-        "http://img.ksbbs.com/asset/Mon_1703/05cacb4e02f9d9e.mp4";
+        "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_175k.mov";
 
     // editingController.text =
     // "https://media001.geekbang.org/f433fd1ce5e84d27b1101f0dad72a126/de563bb4aba94b5f95f448b33be4dd9f-9aede6861be944d696fe365f3a33b7b4-sd.m3u8";
