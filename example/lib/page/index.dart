@@ -18,6 +18,8 @@ import 'ijk_status_page.dart';
 import 'in_overlay_page.dart';
 import 'network.dart';
 import 'network2.dart';
+import 'network3.dart';
+import 'network4.dart';
 import 'speed_page.dart';
 
 class IndexPage extends StatefulWidget {
@@ -35,8 +37,10 @@ class _IndexPageState extends State<IndexPage> {
       body: ListView(
         children: <Widget>[
           buildButton("For developer, user don't use.", DevelopingIndexPage()),
-          buildButton(currentI18n.networkButton, NetworkPage()),
-          buildButton(currentI18n.networkButton, NetworkPage2()),
+          buildButton('rtsp外网', NetworkPage()),
+          buildButton('rtsp内网', NetworkPage2()),
+          buildButton('mp4 https://', NetworkPage3()),
+          buildButton('mp4 http://', NetworkPage4()),
           buildButton(currentI18n.photoButton, PlayGalleryPage()),
           buildButton(currentI18n.assetButton, AssetPage()),
           buildButton(currentI18n.listViewButton, VideoList()),
